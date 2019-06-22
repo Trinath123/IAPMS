@@ -1,0 +1,67 @@
+.wizard_horizontal ul.wizard_steps {
+    display: table;
+    list-style: none;
+    position: relative;
+    width: 100%;
+    margin: 0 0 20px;
+}
+
+    .wizard_horizontal ul.wizard_steps li {
+        display: table-cell;
+        text-align: center;
+    }
+
+        .wizard_horizontal ul.wizard_steps li a, .wizard_horizontal ul.wizard_steps li:hover {
+            display: block;
+            position: relative;
+            opacity: 1;
+            filter: alpha(opacity=100);
+            opacity: 1;
+            color: #666;
+        }
+
+            .wizard_horizontal ul.wizard_steps li a .step_no {
+                width: 60px;
+                height: 40px;
+                line-height: 40px;
+                border-radius: 75%;
+                display: block;
+                margin: 0 auto 5px;
+                font-size: 16px;
+                text-align: center;
+                position: relative;
+                z-index: 5;
+            }
+
+
+/*.wizard_horizontal ul.wizard_steps li a:before {
+                background: #000000;
+            }*/
+
+.dataTables_filter input {
+    width: 150px
+}
+
+
+.boxTemplate {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px #888888;
+}
+
+.form-control {
+    border-radius: 4px;
+    border-color: #2A3F54;
+    background-color: azure;
+    margin-top: 12px;
+}
+
+.label-custom {
+    font-family: Arial;
+    color: mediumblue;
+    margin-top: 15px;
+}
+
+.table-head {
+    background-color: lightskyblue;
+}

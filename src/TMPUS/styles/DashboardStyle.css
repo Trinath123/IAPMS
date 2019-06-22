@@ -1,0 +1,23 @@
+.tile-stats .icon i {
+    font-size: 40px;
+}
+
+.tile-stats .count {
+    font-size: 30px;
+}
+
+.table-head {
+    background-color: lightskyblue;
+}
+#divDispStock {
+    cursor: pointer;
+}
+#txtActual {
+    cursor: pointer;
+}
+#lblCustStock {
+    cursor: pointer;
+}
+#lblUnit {
+    cursor: pointer;
+}
